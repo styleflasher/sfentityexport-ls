@@ -1,0 +1,32 @@
+{
+    "name": "styleflasher/sfentityexport-ls",
+    "description": "The legacy part of the doctrine entity export extension for ezpublish 5",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Styleflasher Team",
+            "homepage": "http://www.styleflasher.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../entityexportbundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/styleflashernewmedia/entityexportbundle"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "sfentityexport"
+    }
+}

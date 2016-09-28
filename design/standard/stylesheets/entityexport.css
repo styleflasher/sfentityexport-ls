@@ -1,0 +1,8 @@
+.broad-table{
+    width: 100%;
+    overflow: scroll;
+}
+.broad-table td{
+    vertical-align:top;
+    white-space: nowrap;
+}
