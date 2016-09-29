@@ -9,21 +9,9 @@
             "homepage": "http://www.styleflasher.at"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../entityexportbundle",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/styleflashernewmedia/entityexportbundle"
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
+        "styleflasher/entityexportbundle": "*",
         "ezsystems/ezpublish-legacy-installer": "*"
     },
     "extra": {
