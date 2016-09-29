@@ -2,7 +2,7 @@
     "name": "styleflasher/sfentityexport-ls",
     "description": "The legacy part of the doctrine entity export extension for ezpublish 5",
     "type": "ezpublish-legacy-extension",
-    "license": "GPL-2.0",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Styleflasher Team",
