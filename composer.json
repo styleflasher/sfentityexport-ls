@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "styleflasher/entityexportbundle": "*",
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "styleflasher/entityexportbundle": "^0.0.3",
+        "ezsystems/ezpublish-legacy-installer": "^2.0.3"
     },
     "extra": {
         "ezpublish-legacy-extension-name": "sfentityexport"
